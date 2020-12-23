@@ -1,0 +1,139 @@
+[data-controls="prev"],[data-controls="next"],[data-action="start"],[data-action="stop"]{
+    display: none;
+}
+
+.person-slide-item .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+.person-slide-item .card img{
+    height: 200px;
+    border-radius: 50%;
+    background-color: #95103B;
+    border: 10px solid #95103B;
+}
+
+.person-slide-item .card img:hover{
+    border: 10px solid #776168;
+}
+.card button:hover{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #776168;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.person-slide-item .card .title {
+    color: grey;
+    font-size: 18px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #95103B;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.person-slide-item .card a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.sideMargin h2{
+text-align: center;
+padding: 20px;
+display:block;
+background-color:#c0c3c3;
+color:black;
+text-transform:uppercase;
+}
+#register{
+  background-color: #E1E0E0;
+  width: 1025px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+label{
+  color: #6c6969;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+#name{
+  width: 650px;
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+  background:#b5acac;
+  margin:0 auto;
+}
+#ph{
+  width: 65px;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  background:#b5acac;
+}
+#num{
+  width: 595px;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  background:#b5acac;
+}
+
+.sideMargin{
+padding-top:75px;
+}
+.form{
+margin-left:110px;
+}
+#button_group{
+margin-left:250px;
+}
+.signUp_button, .reset_button{
+float:none;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+background-color: #555;
+color: white;
+font-family:arial;
+outline:none;
+}
+.signUp_button:hover, .reset_button:hover{
+background-color:black;
+border:none;
+border-inline:none;
+cursor:pointer;
+}
+
+.register{
+  width: 80%;
+  margin: 0 auto;
+}
+
+}
